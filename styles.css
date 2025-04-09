@@ -1,0 +1,21 @@
+/* Aca le doy estilos a mi body */
+body{
+background-color: rgb(99, 102, 149);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+text-align: center;
+}
+header,footer{
+background-color: #8b8345;
+color: rgb(255, 255, 255);
+padding: 20px;
+text-align: center;
+}
+
+nav a{
+color: rgb(153, 197, 188);
+margin: 0px 10px;
+text-decoration: none;
+}
+h1,h2{
+    color: rgb(251, 251, 251);
+}
