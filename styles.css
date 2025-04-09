@@ -6,6 +6,7 @@ text-align: center;
 }
 header,footer{
 background-color: #8b8345;
+border-radius: 30px;
 color: rgb(255, 255, 255);
 padding: 20px;
 text-align: center;
@@ -18,4 +19,39 @@ text-decoration: none;
 }
 h1,h2{
     color: rgb(251, 251, 251);
+}
+
+form{
+    background-color: rgb(233, 208, 208);
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 0 0 10px;
+    width: 80%;
+    margin-bottom: 20%;
+}
+
+input,textarea{
+    width: 30%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 2px solid #11100f;
+    border-radius: 5px;
+}
+
+button{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    padding: 1pc 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #079;
+}
+
+form:hover{
+    background-color: aqua;
 }
